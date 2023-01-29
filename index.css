@@ -33,7 +33,7 @@ button {
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    min-width: 80%;
+    border: none;
     max-width: 200px;
     font-weight: bold;
 }
@@ -46,4 +46,11 @@ p {
 main {
     width: 80%;
     align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+        width: 90%;
+        margin: auto;
+    }
 }
