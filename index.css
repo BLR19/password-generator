@@ -33,8 +33,9 @@ button {
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    width: 80%;
-    max-width: 200px
+    min-width: 80%;
+    max-width: 200px;
+    font-weight: bold;
 }
 
 p {
