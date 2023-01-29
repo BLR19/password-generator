@@ -11,13 +11,16 @@ body {
 }
 
 #container {
-    width: 60%;
-    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 input {
     margin: 4px;
-    max-width: 90%;
     background: #273549;
     border: none;
     color: #10b981;
@@ -27,14 +30,13 @@ input {
 }
 
 button {
-    margin: 10px auto;
+    margin: 10px 0px;
     padding: 6px 15px;
     background: #10b981;
     color: white;
     border-radius: 5px;
     cursor: pointer;
     border: none;
-    max-width: 200px;
     font-weight: bold;
 }
 
@@ -43,14 +45,8 @@ p {
     font-weight: 200;
 }
 
-main {
-    width: 80%;
+#passwords-box {
+    display:flex;
+    flex-direction: column;
     align-items: center;
-}
-
-@media only screen and (max-width: 600px) {
-    #container {
-        width: 90%;
-        margin: auto;
-    }
 }
